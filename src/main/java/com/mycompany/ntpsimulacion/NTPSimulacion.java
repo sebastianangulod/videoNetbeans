@@ -59,7 +59,7 @@ public class NTPSimulacion {
     public static void main(String[] args) {
         TimeServer server = new TimeServer();
         NTPClient client = new NTPClient();
-        
+        System.out.println("Iniciando...")
         System.out.println("Simulacion de sincronizacion NTP:");
         client.syncWithServer(server);
     }
